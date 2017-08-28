@@ -1,0 +1,5 @@
+---
+- name: Update repositories cache and install packages
+  apt: name={{ item }} update_cache=yes state=installed
+  with_items:
+    - python-pip
