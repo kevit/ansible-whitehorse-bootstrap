@@ -1,0 +1,13 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: kevit
+  description: whitehorse bootstrap
+  company: "whitehorse LLC"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.9
+  platforms:
+    - name: Debian
+      versions:
+      - all
